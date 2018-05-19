@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     letter-spacing: -.022em;
     font-synthesis: none;
@@ -16,3 +18,77 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+/* Concurrentie */
+
+table {
+    background-color:hsla(68, 63%, 75%, 1);
+    color: hsla(68, 63%, 15%, 1);
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th {
+    width: auto;
+    background-color: hsla(68, 63%, 45%, 1);
+}
+
+td#highest {
+    font-weight: bolder;
+    text-shadow: 1px 1px hsla(68, 83%, 25%, 0.6);
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center
+}
+
+tr {
+    height: 60px;
+}
+
+thead>tr {
+    height: 50px;;
+}
+
+tr:hover {
+    background-color: hsla(68, 63%, 65%, 1)
+}
+
+table>thead>tr>th>a {
+    text-decoration-style: dotted;
+    color: inherit;
+}
+
+div.concurrentieList {
+    max-width: 1200px;
+    height: 450px;
+    margin: 30px auto;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around
+}
+
+/* User Scenarios */
+
+div#scenario_box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+div.users {
+    background-color: hsla(0, 0%, 95%, 1);
+    width: 45%;
+    height: 150px;
+    padding: 10px;
+    padding-left: 30px;
+    border: 2px solid hsla(0, 0%, 90%, 1);
+    margin: 40px 0px;
+}
+
+/* Style Guide */
