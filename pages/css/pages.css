@@ -8,7 +8,7 @@ body {
     -moz-font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #333;
+    color: #252525;
     line-height: 1.5em;
     padding: 25px;
 }
@@ -73,6 +73,10 @@ div.concurrentieList {
     align-content: space-around
 }
 
+div.concurrentieList>div>h2 {
+    margin: 0px; /*lazy flex fix*/
+}
+
 /* User Scenarios */
 
 div#scenario_box {
@@ -92,3 +96,86 @@ div.users {
 }
 
 /* Style Guide */
+
+h1 {
+    color: #cfde6e;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+h2 {
+    color: #deb56e;
+    font-weight: 100;
+    font-size: 1.8em
+}
+
+h3{
+    color: #deb56e;
+    font-weight: 100;
+    font-size: 1.4em;
+}
+
+div.slab {
+    background-color: #252525;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+div.flexbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+div.flexbox>div>p {
+    text-align: center;
+}
+
+div.slab>p, div.slab>div>p {
+    color: #d8d8d8;
+}
+
+img.icon {
+    width: 100px;
+}
+
+img.logo {
+    width: 200px;
+}
+
+div#color1 {
+    width: 200px;
+    height: 200px;
+    background-color: hsla(68, 63%, 65%, 1);
+    border: white 2px solid;
+}
+
+div#color2 {
+    width: 200px;
+    height: 200px;
+    background-color: #deb56e;
+    border: white 2px solid;
+}
+
+div#color3 {
+    width: 200px;
+    height: 200px;
+    background-color: #d8d8d8;
+    border: white 2px solid;
+}
+
+div#color4 {
+    width: 200px;
+    height: 200px;
+    background-color: #252525;
+    border: white 2px solid;
+}
+
+div#nav {
+    height: 60px;
+}
+
+img#navlogo {
+    height: 60px;
+}
