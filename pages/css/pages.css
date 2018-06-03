@@ -119,6 +119,7 @@ div.slab {
     background-color: #252525;
     padding: 20px;
     margin: 20px 0px;
+    border-radius: 10px;
 }
 
 div.flexbox {
