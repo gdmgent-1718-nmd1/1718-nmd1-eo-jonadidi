@@ -138,6 +138,11 @@ div.slab>p, div.slab>div>p {
 
 img.icon {
     width: 100px;
+    opacity: 0.7;
+}
+
+img.icon:hover {
+    opacity: 1;
 }
 
 img.logo {
@@ -174,8 +179,57 @@ div#color4 {
 
 div#nav {
     height: 60px;
+    display: flex;
+    align-items: center;
 }
 
 img#navlogo {
     height: 60px;
+}
+
+p.navbutton {
+    color: hsla(68, 63%, 65%, 1);
+    font-weight: 400;
+    font-size: 2em;
+}
+
+p.navbutton:hover {
+    text-shadow: 0px 0px 10px #cfde6e;
+}
+
+.link_big, .link_small {
+    font-style: italic;
+}
+
+.link_big:hover {
+    color: #d8d8d8;
+}
+
+.link_small:hover {
+    color: #deb56e;
+}
+
+input, textarea {
+    width: 100%;
+    height: 30px;
+    background-color: #d8d8d8;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+textarea {
+    height: 150px;
+}
+
+::placeholder {
+    color: #252525;
+    opacity: 1; /*Firefox*/
+}
+
+input#send {
+    width: 80px;
+    color: #252525;
+    background-color: #deb56e;
 }
